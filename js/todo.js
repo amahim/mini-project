@@ -30,7 +30,7 @@ document.getElementById('task-btn').addEventListener('click',function(){
     removeButton.className = "p-2  rounded-full bg-red-300  text-red-500"
     removeButton.innerText = "Remove"
     removeButton.addEventListener('click', function() {
-        sum = 0;
+        // sum--;
         tr.remove();
     });
     th3.appendChild(removeButton);
