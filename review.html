@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 class="text-3xl text-center my-5 font-bold text-orange-600">Daraz Lite 🛍</h1>
+    <div class="w-[80%] text-center mx-auto mb-8">
+      <textarea
+        id="text-area"
+        placeholder="leave a review..."
+        class="textarea mx-auto border-2 border-orange-600 textarea-bordered textarea-lg w-96"
+      ></textarea>
+      <div class="text-end w-[45%] mx-auto">
+        <button id="submit-btn" class="btn btn-success btn-sm bg-orange-600 border-0">Submit</button>
+      </div>
+    </div>
+    <div id="review" class="user-review w-96 mx-auto">
+      <h1 class="text-3xl font-bold text-orange-600">Add a review:</h1>
+    </div>
+    <script src="./js/rev.js"></script>
+  </body>
+</html>
